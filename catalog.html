@@ -1,0 +1,193 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/svgicons/logo-small.svg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-ui-slider@1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.3/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.8.3/css/lg-zoom.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/app.min.js"></script>
+    <title>Главная</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="container">
+        <a href="/" class="header__logo">
+            <img src="img/svgicons/logo.svg" alt="logo">
+        </a>
+        <nav class="header__nav">
+            <a href="#">Каталог</a>
+            <a href="#">Сотрудничество</a>
+            <a href="#">Контакты</a>
+            <a href="#">Наши работы</a>
+            <div class="phones">
+                <a href="tel:+7(978) 888 88 88">
+                    <img src="img/svgicons/phone-black.svg" alt="">
+                    +7(978) 888 88 88
+                </a>
+                <a href="tel:+7(978) 888 88 88">
+                    <img src="img/svgicons/phone-black.svg" alt="">
+                    +7(978) 888 88 88
+                </a>
+            </div>
+        </nav>
+        <div class="header__menu">
+            <button class="header__burger">
+                <span></span>
+            </button>
+            <p>меню</p>
+        </div>
+        <div class="phones">
+            <a href="tel:+7(978) 888 88 88">
+                <img src="img/svgicons/phone-black.svg" alt="">
+                +7(978) 888 88 88
+            </a>
+            <a href="tel:+7(978) 888 88 88">
+                <img src="img/svgicons/phone-black.svg" alt="">
+                +7(978) 888 88 88
+            </a>
+        </div>
+    </div>
+</header>
+<!-- <svg>
+    <use xlink:href="#favorite"></use>
+</svg> -->
+
+            <main class="content with-bg">
+                <article class="breadcrumbs">
+                    <div class="container">
+                        <div class="breadcrumbs__row">
+                            <a href="#">ГЛАВНАЯ</a>
+                            <span>-</span>
+                            <a href="#">КАТАЛОГ ПРОДУКЦИИ</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog">
+                    <div class="container">
+                        <header class="block-header">
+                            <h1>КАТАЛОГ ПРОДУКЦИИ</h1>
+                        </header>
+                        <div class="catalog__row">
+                            <a href="#" class="catalog__item">
+                                <img src="img/catalog/1.png" alt="">
+                                <h2>ВОЗДУХОВОДЫ</h2>
+                            </a>
+                            <a href="#" class="catalog__item">
+                                <img src="img/catalog/2.png" alt="">
+                                <h2>ДЕФЛЕКТОРЫ</h2>
+                            </a>
+                            <a href="#" class="catalog__item">
+                                <img src="img/catalog/3.png" alt="">
+                                <h2>КРЫШНЫЕ ЗОНТЫ</h2>
+                            </a>
+                            <a href="#" class="catalog__item">
+                                <img src="img/catalog/4.png" alt="">
+                                <h2>КУХОННЫЕ ЗОНТЫ</h2>
+                            </a>
+                            <a href="#" class="catalog__item">
+                                <img src="img/catalog/5.png" alt="">
+                                <h2>ШУМОГЛУШИТЕЛИ</h2>
+                            </a>
+                            <a href="#" class="catalog__item">
+                                <img src="img/catalog/6.png" alt="">
+                                <h2>ФАСОННЫЕ ДЕТАЛИ</h2>
+                            </a>
+                            <a href="#" class="catalog__item">
+                                <img src="img/catalog/7.png" alt="">
+                                <h2>ДЕТАЛИ ДЛЯ МОНТАЖА</h2>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__logo">
+            <img src="img/svgicons/logo-footer.svg" alt="logo-footer">
+        </div>
+        <nav class="footer__nav">
+            <a href="#">Главная</a>
+            <a href="#">О компании</a>
+            <a href="#">Каталог</a>
+            <a href="#">Сотрудничество</a>
+        </nav>
+        <nav class="footer__nav">
+            <a href="#">Наши работы</a>
+            <a href="#">Отзывы</a>
+            <a href="#">Портфолио</a>
+            <a href="#">Доставка и оплата</a>
+        </nav>
+        <nav class="footer__nav">
+            <div class="phones">
+                <a href="tel:+7(978) 888 88 88">
+                    <img src="img/svgicons/phone-white.svg" alt="">
+                    +7(978) 888 88 88
+                </a>
+                <a href="tel:+7(978) 888 88 88">
+                    <img src="img/svgicons/phone-white.svg" alt="">
+                    +7(978) 888 88 88
+                </a>
+            </div>
+            <a href="mailto:tvg@mail.ru">
+                <img src="img/svgicons/mail.svg" alt="">
+                tvg@mail.ru
+            </a>
+            <div class="footer__icon">
+                <img src="img/svgicons/time.svg" alt="">
+                <p>
+                    Работаем по будням:
+                    <br>
+                    08:00-17:00
+                </p>
+            </div>
+        </nav>
+    </div>
+</footer>
+<!-- <div class="dialogbox dialogbox-callback">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="contact__form">
+                <form action="#">
+                    <header class="block-header">
+                        <h2>Обратный звонок</h2>
+                    </header>
+                    <div class="dialogbox__inputs">
+                        <input type="text" name="name" placeholder="Имя">
+                        <input type="tel" name="phone" placeholder="Телефон">
+                    </div>
+                    <button class="btn-green">Отправить</button>
+                    <label class="checkbox">
+                        <input type="checkbox" class="custom-checkbox" checked="">
+                        <p>
+                            Я соглашаюсь с
+                            <a href="#">Политикой конфиденциальности</a>
+                            и
+                            <a href="#">Обработки персональных данных</a>
+                            .
+                        </p>
+                    </label>
+                    <footer class="contact-form__footer"></footer>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+        </div>
+    </body>
+</html>
